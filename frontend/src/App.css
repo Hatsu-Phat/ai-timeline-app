@@ -13,14 +13,14 @@ body {
 /* ---- HEADER ---- */
 .App-header {
     background-color: #2c3e50;
-    padding: 35px;
+    padding: 45px;
     color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .App-header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2.8em;
     font-weight: 600;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .input-form input[type="text"] {
-    width: 350px;
+    width: 550px;
     padding: 14px 18px;
     font-size: 1.1em;
     border-radius: 8px;
@@ -122,7 +122,7 @@ body {
     overflow-x: auto; /* Cho phép cuộn ngang */
     align-items: center; /* Canh giữa các thẻ và đường kẻ theo chiều dọc */
     padding: 20px 10px; /* Thêm padding để cuộn đẹp hơn */
-    min-height: 220px; /* Chiều cao tối thiểu */
+    min-height: 320px; /* Chiều cao tối thiểu */
 }
 
 /* ---- THẺ GIAI ĐOẠN (MỚI) ---- */
