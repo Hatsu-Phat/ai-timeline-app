@@ -17,7 +17,16 @@ if (!GEMINI_API_KEY) {
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 // Middleware
-app.use(cors());
+// Cấu hình CORS chi tiết
+const corsOptions = {
+  origin: [
+    'http://localhost:3000', // Cho phép test ở local
+    'https://ai-timeline-app.vercel.app' // THAY BẰNG URL VERCEL CỦA BẠN
+  ],
+  optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // --- CACHING IMPLEMENTATION ---
