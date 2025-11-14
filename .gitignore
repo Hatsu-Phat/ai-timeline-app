@@ -1,0 +1,13 @@
+# Bỏ qua tất cả các file .env ở mọi nơi
+*.env
+
+# Bỏ qua các thư mục node_modules
+/frontend/node_modules
+/backend/node_modules
+
+# Bỏ qua thư mục build của React
+/frontend/build
+
+# Các file rác hệ thống
+.DS_Store
+npm-debug.log
