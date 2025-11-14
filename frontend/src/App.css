@@ -295,3 +295,12 @@ body {
     padding: 10px 15px;
     margin-top: 15px;
 }
+
+.app-footer {
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 30px; /* Tạo khoảng cách với nội dung bên trên */
+    color: #48565c; /* Màu xám nhạt */
+    font-size: 0.95em;
+    font-weight: 500;
+}
