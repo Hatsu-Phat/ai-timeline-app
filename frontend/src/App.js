@@ -167,6 +167,9 @@ const App = () => {
                 isOpen={isModalOpen}
                 onClose={handleCloseModal}
             />
+            <footer className="app-footer">
+                Developed by Nguyên Phát
+            </footer>        
         </div>
     );
 };
